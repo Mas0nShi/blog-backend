@@ -15,7 +15,7 @@
     "mason-notion-types": "^6.16.7",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-notion-x": "^6.16.3",
+    "mason-blog-backend": "^6.16.7",
     "react-scripts": "5.0.0",
     "typescript": "^4.6.3"
   },
