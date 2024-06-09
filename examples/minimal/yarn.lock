@@ -1046,13 +1046,13 @@ notion-client@^4.17.0:
   integrity sha512-Db8idZWhhJJDb1Pm3tbXKVY/wzz7Q5/m2Vc+koX7XimdC6cDp3GycMPZ0GCWcZsJzyGtlDWksAy1RvOyZg127A==
   dependencies:
     got "^11.8.1"
-    notion-types "^4.17.0"
+    mason-notion-types "^4.17.0"
     notion-utils "^4.17.0"
     p-map "^4.0.0"
 
-notion-types@^4.17.0:
+mason-notion-types@^4.17.0:
   version "4.17.0"
-  resolved "https://registry.yarnpkg.com/notion-types/-/notion-types-4.17.0.tgz#aff50a6dd2e15e4e8d6b3691a3087ad5eaa89538"
+  resolved "https://registry.yarnpkg.com/mason-notion-types/-/mason-notion-types-4.17.0.tgz#aff50a6dd2e15e4e8d6b3691a3087ad5eaa89538"
   integrity sha512-j0PXawUD5/eY9ant7dQUVecZZfvJ/DlLZ4ic0ysfV0M0z+ndh7IaGjix1/rJmnaf5BpkjCXzlxj8DV2VfaJghQ==
 
 notion-utils@^4.17.0:
@@ -1060,7 +1060,7 @@ notion-utils@^4.17.0:
   resolved "https://registry.yarnpkg.com/notion-utils/-/notion-utils-4.17.0.tgz#eed371084a42f2262b5d471146379a700c144c36"
   integrity sha512-r135GcRY2TreaXW+Fp/bGOryH1roTx2LvAFpj6NmqrF1bky0XV+kg4Q6nVGWX8jGMVNKSVljksqzQpOITqForQ==
   dependencies:
-    notion-types "^4.17.0"
+    mason-notion-types "^4.17.0"
     p-queue "6"
 
 npmlog@^4.0.1:
@@ -1426,7 +1426,7 @@ react-notion-x@^4.17.0:
     katex "^0.13.18"
     lodash.throttle "^4.1.1"
     medium-zoom "^1.0.6"
-    notion-types "^4.17.0"
+    mason-notion-types "^4.17.0"
     notion-utils "^4.17.0"
     prismjs "^1.20.0"
     rc-dropdown "^3.1.2"
