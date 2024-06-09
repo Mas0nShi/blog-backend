@@ -1,5 +1,5 @@
-import { ExtendedRecordMap } from 'notion-types'
-import { NotionRenderer } from 'react-notion-x'
+import { NotionRenderer } from 'mason-blog-backend'
+import { ExtendedRecordMap } from 'mason-notion-types'
 import { Code } from 'react-notion-x/build/third-party/code'
 import { Collection } from 'react-notion-x/build/third-party/collection'
 import { Equation } from 'react-notion-x/build/third-party/equation'

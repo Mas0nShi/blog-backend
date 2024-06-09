@@ -1,9 +1,9 @@
 import * as React from 'react'
 
 import copyToClipboard from 'clipboard-copy'
+import { CodeBlock } from 'mason-notion-types'
+import { getBlockTitle } from 'mason-notion-utils'
 import mermaid from 'mermaid'
-import { CodeBlock } from 'notion-types'
-import { getBlockTitle } from 'notion-utils'
 import { highlightElement } from 'prismjs'
 import 'prismjs/components/prism-clike.min.js'
 import 'prismjs/components/prism-css-extras.min.js'

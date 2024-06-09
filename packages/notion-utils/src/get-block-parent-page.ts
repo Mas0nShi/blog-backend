@@ -1,4 +1,4 @@
-import * as types from 'notion-types'
+import * as types from 'mason-notion-types'
 
 /**
  * Returns the parent page block containing a given page.

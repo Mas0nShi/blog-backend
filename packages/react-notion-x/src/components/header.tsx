@@ -1,7 +1,7 @@
 import * as React from 'react'
 
-import * as types from 'notion-types'
-import { getPageBreadcrumbs } from 'notion-utils'
+import * as types from 'mason-notion-types'
+import { getPageBreadcrumbs } from 'mason-notion-utils'
 import { useHotkeys } from 'react-hotkeys-hook'
 
 import { useNotionContext } from '../context'

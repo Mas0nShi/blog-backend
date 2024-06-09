@@ -5,9 +5,9 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 
-import { ExtendedRecordMap } from 'notion-types'
-import { getPageTitle } from 'notion-utils'
-import { NotionRenderer } from 'react-notion-x'
+import { NotionRenderer } from 'mason-blog-backend'
+import { ExtendedRecordMap } from 'mason-notion-types'
+import { getPageTitle } from 'mason-notion-utils'
 import TweetEmbed from 'react-tweet-embed'
 
 import { Loading } from './Loading'

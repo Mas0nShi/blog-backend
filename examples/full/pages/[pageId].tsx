@@ -1,8 +1,8 @@
 import * as React from 'react'
 
-import { ExtendedRecordMap } from 'notion-types'
-import { getAllPagesInSpace } from 'notion-utils'
-import { defaultMapPageUrl } from 'react-notion-x'
+import { defaultMapPageUrl } from 'mason-blog-backend'
+import { ExtendedRecordMap } from 'mason-notion-types'
+import { getAllPagesInSpace } from 'mason-notion-utils'
 
 import * as notion from '../lib/notion'
 import { NotionPage } from '../components/NotionPage'

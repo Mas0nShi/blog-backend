@@ -12,7 +12,7 @@ test('dummy', async (t) => {
 
   Error: Dynamic require of "events" is not supported
 
-  › file:///Users/tfischer/dev/modules/react-notion-x/packages/notion-client/build/index.js:1:382
+  › file:///Users/tfischer/dev/modules/react-notion-x/packages/''/build/index.js:1:382
   › file:///Users/tfischer/dev/modules/react-notion-x/node_modules/cacheable-request/src/index.js:3:22
   › file:///Users/tfischer/dev/modules/react-notion-x/packages/notion-client/build/index.js:1:462
   › file:///Users/tfischer/dev/modules/react-notion-x/node_modules/got/dist/source/core/index.js:7:30
@@ -21,7 +21,7 @@ test('dummy', async (t) => {
 
 // import { Client } from '@notionhq/client'
 // import { promises as fs } from 'fs'
-// import { NotionAPI } from 'notion-client'
+// import { NotionAPI } from 'mason-notion-client'
 
 // import { NotionCompatAPI } from './notion-compat-api'
 

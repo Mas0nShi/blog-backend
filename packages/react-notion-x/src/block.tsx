@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-import * as types from 'notion-types'
+import * as types from 'mason-notion-types'
 import {
   getBlockCollectionId,
   getBlockIcon,
@@ -8,7 +8,7 @@ import {
   getPageTableOfContents,
   getTextContent,
   uuidToId
-} from 'notion-utils'
+} from 'mason-notion-utils'
 
 import { AssetWrapper } from './components/asset-wrapper'
 import { Audio } from './components/audio'

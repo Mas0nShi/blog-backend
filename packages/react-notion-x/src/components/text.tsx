@@ -1,7 +1,7 @@
 import * as React from 'react'
 
-import { Block, Decoration, ExternalObjectInstance } from 'notion-types'
-import { parsePageId } from 'notion-utils'
+import { Block, Decoration, ExternalObjectInstance } from 'mason-notion-types'
+import { parsePageId } from 'mason-notion-utils'
 
 import { useNotionContext } from '../context'
 import { formatDate, getHashFragmentValue } from '../utils'

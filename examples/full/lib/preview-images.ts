@@ -1,10 +1,14 @@
 import got from 'got'
 import lqip from 'lqip-modern'
-import { ExtendedRecordMap, PreviewImage, PreviewImageMap } from 'notion-types'
-import { getPageImageUrls } from 'notion-utils'
+import { defaultMapImageUrl } from 'mason-blog-backend'
+import {
+  ExtendedRecordMap,
+  PreviewImage,
+  PreviewImageMap
+} from 'mason-notion-types'
+import { getPageImageUrls } from 'mason-notion-utils'
 import pMap from 'p-map'
 import pMemoize from 'p-memoize'
-import { defaultMapImageUrl } from 'react-notion-x'
 
 // NOTE: this is just an example of how to pre-compute preview images.
 // Depending on how many images you're working with, this can potentially be
