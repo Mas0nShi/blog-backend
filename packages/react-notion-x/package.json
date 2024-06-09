@@ -3,7 +3,7 @@
   "version": "6.16.4",
   "type": "module",
   "description": "Clone version provide power to drive custom blog",
-  "repository": "https://github.com/Mas0nShi/blog-backend",
+  "repository": "Mas0nShi/blog-backend",
   "author": "Mas0n",
   "license": "MIT",
   "main": "./build/index.js",
