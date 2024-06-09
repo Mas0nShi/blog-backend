@@ -1,5 +1,5 @@
 {
-  "name": "notion-client",
+  "name": "mason-notion-client",
   "version": "6.16.4",
   "type": "module",
   "description": "Robust TypeScript client for the unofficial Notion API.",
@@ -23,8 +23,8 @@
   },
   "dependencies": {
     "got": "^11.8.1",
-    "notion-types": "^6.16.4",
-    "notion-utils": "^6.16.4",
+    "mason-notion-types": "^6.16.4",
+    "mason-notion-utils": "^6.16.4",
     "p-map": "^5.3.0"
   },
   "ava": {
