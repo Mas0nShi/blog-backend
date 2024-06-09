@@ -1,6 +1,6 @@
 {
   "name": "notion-x-example-minimal",
-  "version": "6.16.4",
+  "version": "6.16.6",
   "private": true,
   "type": "commonjs",
   "scripts": {
@@ -10,12 +10,12 @@
     "deploy": "vercel deploy"
   },
   "dependencies": {
+    "mason-blog-backend": "^6.16.6",
+    "mason-notion-client": "^6.16.6",
+    "mason-notion-utils": "^6.16.6",
     "next": "^12.1.0",
-    "mason-notion-client": "^6.16.5",
-    "mason-notion-utils": "^6.16.5",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "mason-blog-backend": "^6.16.5"
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "@types/node": "^16.11.2",

@@ -1,6 +1,6 @@
 {
   "name": "mason-notion-compat",
-  "version": "6.16.5",
+  "version": "6.16.6",
   "type": "module",
   "description": "Compatibility layer between the official Notion API and unofficial private API.",
   "repository": "Mas0nShi/blog-backend",
@@ -23,12 +23,12 @@
   },
   "dependencies": {
     "mason-notion-types": "^6.16.5",
-    "mason-notion-utils": "^6.16.5",
+    "mason-notion-utils": "^6.16.6",
     "p-queue": "^7.2.0"
   },
   "devDependencies": {
     "@notionhq/client": "^1.0.4",
-    "mason-notion-client": "^6.16.5"
+    "mason-notion-client": "^6.16.6"
   },
   "peerDependencies": {
     "@notionhq/client": "^1.0.4"
