@@ -5,6 +5,8 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 
+// where mason-blog-backend is imported from
+// print package path
 import { NotionRenderer } from 'mason-blog-backend'
 import { ExtendedRecordMap } from 'mason-notion-types'
 import { getPageTitle } from 'mason-notion-utils'
@@ -17,7 +19,7 @@ import { Loading } from './Loading'
 // -----------------------------------------------------------------------------
 
 const Code = dynamic(() =>
-  import('react-notion-x/build/third-party/code').then(async (m) => {
+  import('mason-blog-backend/build/third-party/code').then(async (m) => {
     // additional prism syntaxes
     await Promise.allSettled([
       import('prismjs/components/prism-markup-templating.js'),
@@ -56,21 +58,24 @@ const Code = dynamic(() =>
   })
 )
 const Collection = dynamic(() =>
-  import('react-notion-x/build/third-party/collection').then(
+  import('mason-blog-backend/build/third-party/collection').then(
     (m) => m.Collection
   )
 )
 const Equation = dynamic(() =>
-  import('react-notion-x/build/third-party/equation').then((m) => m.Equation)
+  import('mason-blog-backend/build/third-party/equation').then(
+    (m) => m.Equation
+  )
 )
 const Pdf = dynamic(
-  () => import('react-notion-x/build/third-party/pdf').then((m) => m.Pdf),
+  () => import('mason-blog-backend/build/third-party/pdf').then((m) => m.Pdf),
   {
     ssr: false
   }
 )
 const Modal = dynamic(
-  () => import('react-notion-x/build/third-party/modal').then((m) => m.Modal),
+  () =>
+    import('mason-blog-backend/build/third-party/modal').then((m) => m.Modal),
   {
     ssr: false
   }
@@ -115,7 +120,7 @@ export const NotionPage = ({
 
   const socialDescription = 'React Notion X Demo'
   const socialImage =
-    'https://react-notion-x-demo.transitivebullsh.it/social.jpg'
+    'https://mason-blog-backend-demo.transitivebullsh.it/social.jpg'
 
   return (
     <>
